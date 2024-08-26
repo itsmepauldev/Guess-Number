@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="bg-gradient-to-r from-[#7B5AB5] to-[#6A76E2] flex justify-center items-center min-h-screen">
+    <div class="flex justify-center bg-white px-40 py-20 rounded-xl">
+        <div>
+
+            <div class="text-center mb-10">
+                <h3 class="font-['Poppins'] font-semibold text-xl">I am thinking of a number between 1-20.</h3>
+                <h3 class="font-['Poppins'] font-semibold text-xl">Can you guess it?</h3>
+            </div>
+            <div class="flex justify-center">
+            <input type="text" name="" id="guess" class="block bg-[#E8F1FE] text-6xl text-center w-28 h-24 rounded-lg  border-solid border-black border-4 font-['Poppins'] font-semibold" placeholder="0" >
+        </div>
+        <div class="flex justify-center mt-5">
+            <button id="btn" class="bg-[#683299] p-2 w-28 rounded-lg uppercase font-['Poppins'] font-medium text-white">Guess</button>
+        </div>
+            <p id="numberofguess" class="text-center font-['Poppins'] font-medium mt-3">Guesses Remaining: 5</p>
+            <p id="no" class="text-center font-['Poppins'] font-medium mt-3">Guessed numbers are:</p>
+            <p id="clue" class="text-center font-['Poppins'] font-medium mt-1"></p>
+    
+            <p id="b"></p>
+            <div id="div"></div>
+        </div>
+       
+    </div>
+
+</body>
+<script src="Guess Number.js"></script>
+
+</html>
